@@ -2,6 +2,7 @@ var shooter = {
 	methods: {
 		
 		init: function(){
+			dom.score = 0;
 			mt.resetDomVar();
 			mt.initTimer();
 			mt.initEnemy();
@@ -11,8 +12,7 @@ var shooter = {
 		
 		resetDomVar: function(){
 			dom.min = 1;
-			dom.sec = 0;
-			dom.score = 0;			
+			dom.sec = 0;			
 			dom.enemyArr = [];
 			dom.bulletArr = [];
 			dom.bulletCount = 0;
