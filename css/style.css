@@ -45,10 +45,11 @@
 
 .bullet{
 	position: absolute;
-	width: 10px;
-	height: 10px;
-	border-radius: 5px;
-	background-color: red;
+	width: 20px;
+	height: 20px;
+	background-image: url("../bullet.png");
+	background-size: contain;
+	background-repeat: no-repeat;
 	transition: 0.03s all linear;
 }
 
