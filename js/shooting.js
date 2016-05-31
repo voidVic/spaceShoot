@@ -117,7 +117,7 @@ var shooter = {
 			var bullet = document.createElement('div');
 			bullet.className = 'bullet';
 			bullet.id = 'bullet' + dom.bulletCount;
-			bullet.style.left = dom.gunTip.getBoundingClientRect().left - 5 + 'px';
+			bullet.style.left = dom.gunTip.getBoundingClientRect().left - 10 + 'px';
 			bullet.style.top = dom.gunTip.getBoundingClientRect().top + 'px';
 			dom.bulletArr.push( {bullet: bullet, ttl: dom.ttl, id: dom.bulletCount} );
 			dom.timeLeft = dom.ttl;
