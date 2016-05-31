@@ -32,7 +32,7 @@
 	position: absolute;
 	left: 35%;
 	bottom: 0;
-	background-image: url("../images/ship.png");
+	background-image: url("../ship.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	transition: 0.2s all linear;
@@ -59,7 +59,7 @@
 	position: absolute;
 	width: 40px;
 	height: 40px;
-	background-image: url("../images/ufo.png");
+	background-image: url("../ufo.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	z-index: 5;
@@ -108,7 +108,7 @@
 }
 .popup-spaceship{
 	position: relative;
-	background-image: url("../images/ship.png");
+	background-image: url("../ship.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	transition: 1s all linear;
