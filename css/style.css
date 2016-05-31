@@ -181,3 +181,29 @@ table {
 	95%{left: 0; top: 0}
 	100%{transform: rotate(450deg)}
 }
+
+
+.instruction, .dev{
+	padding: 20px 10px;
+}
+
+.dev{
+	position: relative;
+	bottom: 0;
+}
+a, a:visited{
+	text-decoration: none;
+	color: #00796B;
+}
+.instruction, .dev{
+	padding: 20px 10px;
+}
+
+.dev{
+	position: relative;
+	bottom: 0;
+}
+a, a:visited{
+	text-decoration: none;
+	color: #00796B;
+}
