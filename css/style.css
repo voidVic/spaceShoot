@@ -207,3 +207,18 @@ a, a:visited{
 	text-decoration: none;
 	color: #00796B;
 }
+
+.move-left, .move-right{
+	height:100px;
+	width: 100px;
+	border-radius: 70px;
+	background-color: #2faceb;
+	position: absolute;
+	bottom: 30%;
+}
+.move-left{
+	left:10px;
+}
+.move-right{
+	right: 10px;
+}
