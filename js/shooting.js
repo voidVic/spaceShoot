@@ -167,7 +167,7 @@ var shooter = {
 		
 		dom.closeBtn.addEventListener('click', function(){
 			mt.init();
-		});
+		});/*
 		dom.moveLeft.addEventListener('click', function(){
 			mt.moveGun('left');
 		});
@@ -176,7 +176,7 @@ var shooter = {
 		});
 		dom.gameArea.addEventListener('click', function(){
 			mt.shootBullet();
-		});
+		});*/
 	},
 	init: function(){
 		dom.xMin = (window.innerWidth/100) * dom.xMin;
@@ -210,9 +210,9 @@ var shooter = {
 		popup: document.getElementById('popup'),
 		popupScore: document.getElementById('popupScore'),
 		closeBtn: document.getElementById('closeBtn'),
-		overlay: document.getElementById('overlay'),
+		overlay: document.getElementById('overlay')/*,
 		moveLeft: document.getElementById('moveLeft'),
-		moveRight: document.getElementById('moveRight'),
+		moveRight: document.getElementById('moveRight'),*/
 	}
 };
 var dom = shooter.doms;
