@@ -10,4 +10,4 @@ Right now Game is not compatiable with mobile/touch screens.
  
 # [Click To play Space Shoot Game](https://voidvic.github.io/spaceShoot)
 
-#[Know more about the developer](https://voidvic.herokuapp.com)
+[Know more about the developer (Ankit Sharma)](https://voidvic.herokuapp.com)
