@@ -226,8 +226,8 @@ a, a:visited{
 .dev-info{
         position: absolute;
         right: 50px;
-        top: 100px;
-        color: #fff;
+        bottom: 75px;
+        color: #222;
         font-size: 16px;
       }
       .dev-p-l{
